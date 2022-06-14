@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Será aberto a imagem proporcional a sua tela</h1>
+
+    <picture> 
+        <source media="(max-width: 750px)" srcset="imagens/300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/700.png" type="image/png">
+        <img src="imagens/1000.png" alt="Imagem flexivel">
+    </picture>
+    
+    <h2>Colocando áudio no seu site</h2>
+
+<p>Vamos aprender a reproduzir áudio em HTML5</p>
+<audio src="midia/pedro.mp3" controls none></audio>
+<h3>Caso não consiga ouvir o áudio, <a href="midia/pedro.mp3">pode clicar aqui e baixar</a></h3>
+
+<h1>Inserindo Vídeo em seu site</h1>
+<p>Vamos aprender a colocar vídeo em seu site</p>
+<video width="600" poster="imagens/kda-ahri.jpg" controls metadata>
+    <source src="video/natalia.mp4" type="video/mp4">
+</video>
+
+<h1>Um desenho  gostosinho pra vocês</h1>
+<p>Incorporar esse código foi muito fácil, o próprio Youtube tem o gerador do script quando clicar em compartilhar/incorporar</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WgGkrK4QNbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

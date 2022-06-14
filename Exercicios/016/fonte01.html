@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; }
+        h1, h2 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        body {font-size: 15px;}
+
+           /* peso das fontes 
+           lighter normal bold bolder ou númerica entre 100-900*/
+
+        h1 { 
+            font: normal bolder 4em "work sans"; 
+        }
+            
+        /* shorthand font (ordem correta)
+        -> font-style -> font weight -> font-size -> fonte family */
+        h2 { 
+        font: italic lighter 3em "work sans", sans-serif;}
+        /* como pode ver acima, você consegue escrever a linha completa sem precisar criar as tags, apenas seguindo a ordem da tag font*/ 
+
+        
+        /*vamos falar um pouco sobre medidas...
+
+        Medidas absolutas
+        cm, mm, in (polegada) px (pixel), pt, pc
+
+        Medidas relativas 
+        em (altura do M maiúsculo), ex, rem, vw, vh, %
+
+        Recomendação do W3C é utilizar em ou px nas fontes.
+
+        16px é = 1em
+        */
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com fontes</h1>
+    <p>Shilen instigou o espírito da água na primeira forma que foi criada. Foi assim que a raça dos elfos foi criada.</p>
+    <h2>Título 02</h2>
+    <p>Paagrio instigou o espírito do fogo na segunda forma que foi criada. Foi assim que a raça dos orcs foi criada.</p>
+    <p>Maphr instigou o espírito da terra na terceira forma. Foi assim que a raça dos anões foi criada.</p>
+    <h2>Título 03</h2>
+    <p>Sayha instigou o espírito do vento na quarta forma. Foi assim que a raça dos arteias foi criada.</p>
+    <p>Einhasad era a deusa da criação e criou forma usando seu próprio espírito. Suas crianças usaram seus próprios poderes para criar a vida destas formas. </p>
+</body>
+</html>

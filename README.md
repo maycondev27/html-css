@@ -1,3 +1,3 @@
 # html-css
-Estudos básicos em HTML5 e CSS3
+Estudos em HTML5 e CSS3
 
